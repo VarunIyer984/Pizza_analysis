@@ -44,8 +44,7 @@ jobs:
           # This will check all .py files (app.py, test_app.py) for errors
           flake8 . --count --statistics
 
-      # Step 6: Run our unit tests with pytest
       - name: 6. Run tests with pytest
         run: |
-          # Pytest will automatically find and run 'test_app.py'
+          cd Pizza_analysis
           pytest -v
