@@ -46,4 +46,5 @@ jobs:
 
       - name: 6. Run tests with pytest
         run: |
+          export PYTHONPATH=$PYTHONPATH:.
           pytest -v test_app.py
