@@ -1,0 +1,5 @@
+outs:
+- md5: 90dd37c89737e00e9980d89da6004dfa
+  size: 2261
+  hash: md5
+  path: final_pizza_price_model.pkl
